@@ -14,7 +14,7 @@ import { useTasks } from "../context/TaskProvider";
 import TaskForm from "./TaskForm";
 import TaskCard from "./TaskCard";
 import FloatingParticles from "./FloatingParticles";
-import { TaskStatus } from "../types/task";
+import { Task, TaskStatus } from "../types/task";
 
 const Dashboard: React.FC = () => {
   const { tasks, addTask, getTaskCounts, currentView, setCurrentView } =
